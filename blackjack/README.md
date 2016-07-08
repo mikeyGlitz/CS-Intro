@@ -1,3 +1,5 @@
+[Back to Index](../README.md)
+
 # Introduction
 
 Unlike previous lessons, the intent of this module is to review everything that
@@ -26,3 +28,5 @@ number
 be added to the number. The number should be assigned to zero when it's declared
 4. The program will bust if the sum goes over 21 and the game is automatically lost.
 5. Use a while loop
+
+[Back to Index](../README.md)
