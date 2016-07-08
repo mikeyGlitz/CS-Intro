@@ -15,3 +15,5 @@ workstations on [Cloud 9 IDE](http://c9.io)
 ## Lessons
 * [Data Types and basic Operators](basic-math/README.md)
 * [Flow-Control If-Then-Else and Switch-Case](flow-control/README.md)
+* [Flow-Control loops](loops/README.md)
+* [Review: Blackjack](flow-control/README.md)
