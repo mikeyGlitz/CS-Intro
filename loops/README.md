@@ -49,4 +49,30 @@ while(counter < 3){
 }
 ```
 
+### Assignment 2
+In this assignment, we are going to practice using while loops. Create a program
+that declaresa number variable called *counter*, and a string variable called *word*.
+*word* will be an arbitrary string value (assign the string whatever you want).
+*counter* must be initialized to 0. In C++ since a string is an array of char
+(arrays will be covered in the next lesson), create a while loop that prints out
+every letter in *word*.
+
+#### Hints
+```cpp
+// You access a particular position in the string like below
+char letter = myString[5];  //Accessess the 6th position of the string
+// Arrays in C/C++ begin with index 0 (more on that in the next lesson)
+
+// To do this exercise you need to check against null
+#include <stdlib>
+if(myString[counter] != NULL)
+
+// NULL is essentially the programmer's way of saying "nothing"
+```
+
+## Breaking out of loops
+At any time you need to exit a loop, use the *break* keyword to exit the loop.
+Please be aware that utilizing the *break* keyword is generally considered bad
+practice and should really only be used in special circumstances.
+
 [Back To Index](../README.md)
