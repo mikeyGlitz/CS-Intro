@@ -34,5 +34,6 @@ be added to the number. The number should be assigned to zero when it's declared
 5. Use a while loop
 
 **Model only the player, don't worry about the dealer/house**
+**Don't worry about suits or keeping the number of cards under 52 either**
 
 [Back to Index](../README.md)
