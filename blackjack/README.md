@@ -33,6 +33,6 @@ be added to the number. The number should be assigned to zero when it's declared
 4. The program will bust if the sum goes over 21 and the game is automatically lost.
 5. Use a while loop
 
-** Model only the player, don't worry about the dealer/house **
+**Model only the player, don't worry about the dealer/house**
 
 [Back to Index](../README.md)
