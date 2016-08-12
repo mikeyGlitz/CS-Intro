@@ -22,8 +22,12 @@ This program has the following requirements:
 
 1. Use *std::cin* to obtain user input from a prompt. The prompt should ask if the
 user wants to go another round (y/n).
-2. Use *Math::rand* to cycle through a random number between 1 and 10 for the card
+2. Use *Math::rand* to cycle through a random number between 1 and 13 for the card
 number
+    1. Jack 11
+    2. Queen 12
+    3. King 13
+    * See the above table for the actual values of the card
 3. The program should store a number. Each number generated from *Math::rand* will
 be added to the number. The number should be assigned to zero when it's declared
 4. The program will bust if the sum goes over 21 and the game is automatically lost.
