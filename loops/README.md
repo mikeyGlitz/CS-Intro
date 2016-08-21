@@ -31,7 +31,7 @@ for( int i = 0; i < 3; i++){
 In this assignment, we are going to practice using for loops. Create a program
 that declares three variables. One variable will be called *number* and the other
 variable will be called *multipliler*. The third variable will be called product.
-Make product equal to sum added to itself and make it so that the loop goes for
+Make product equal to the product added to the number and make it so that the loop goes for
 as many times as indicated by multipliler. (see the example above to structure
 your for loop)
 
@@ -59,13 +59,14 @@ every letter in *word*.
 
 #### Hints
 ```cpp
+#include <cstdlib>
+...
 // You access a particular position in the string like below
 char letter = myString[5];  //Accessess the 6th position of the string
 // Arrays in C/C++ begin with index 0 (more on that in the next lesson)
 
-// To do this exercise you need to check against null
-#include <stdlib>
-if(myString[counter] != NULL)
+// To do this exercise you need to check to see if the character exists
+if(myString[counter])
 
 // NULL is essentially the programmer's way of saying "nothing"
 ```
